@@ -34,7 +34,8 @@
 		<h1>Motion</h1>
 		<p id="dp"></p>
 		<button class="button button5" onclick="deviceInfo()">Black</button> </n>
-		<input type="button" onclick="getCurrentAcceleration(onSuccess, onError)" value="WYZWÓL TEN MOTION">
+		<input type="button" onclick="navigator.accelerometer.getCurrentAcceleration(onSuccess, onError)" value="WYZWÓL MOTION">
+		<!-- <input type="button" onclick="onError()" value="Check network"> -->
 		
 	</body>
 </html>
